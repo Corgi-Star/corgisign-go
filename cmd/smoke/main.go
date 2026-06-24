@@ -25,8 +25,8 @@ import (
 	"os"
 	"time"
 
-	corgisign "github.com/Corgi-Star/corgisign-go"
-	"github.com/Corgi-Star/corgisign-go/webhooks"
+	corgisign "github.com/Corgi-Star/corgisign-go-sdk"
+	"github.com/Corgi-Star/corgisign-go-sdk/webhooks"
 )
 
 func env(key, def string) string {

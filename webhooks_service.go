@@ -4,7 +4,7 @@ import "context"
 
 // WebhooksService registers outbound webhook subscriptions. To verify the
 // signature on an inbound webhook delivery, use the sibling package
-// github.com/Corgi-Star/corgisign-go/webhooks.
+// github.com/Corgi-Star/corgisign-go-sdk/webhooks.
 type WebhooksService struct {
 	c *Client
 }

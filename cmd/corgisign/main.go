@@ -1,6 +1,6 @@
 // Command corgisign is the official command-line client for the CorgiSign
 // public API (the /api/v1 surface). It is a thin, dependency-free wrapper over
-// the Go SDK (github.com/Corgi-Star/corgisign-go) that authenticates with an
+// the Go SDK (github.com/Corgi-Star/corgisign-go-sdk) that authenticates with an
 // organisation API key read from the environment.
 //
 // Configuration (environment):

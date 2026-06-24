@@ -6,7 +6,7 @@ authenticate with an **organisation API key** (a `cs_live_...` secret), never a
 user session.
 
 ```
-go get github.com/Corgi-Star/corgisign-go
+go get github.com/Corgi-Star/corgisign-go-sdk
 ```
 
 Requires Go 1.23+. The SDK has zero third-party dependencies (standard library
@@ -23,7 +23,7 @@ import (
 	"log"
 	"os"
 
-	corgisign "github.com/Corgi-Star/corgisign-go"
+	corgisign "github.com/Corgi-Star/corgisign-go-sdk"
 )
 
 func main() {
@@ -169,7 +169,7 @@ sends `X-CorgiSign-Signature: sha256=<hex>`. Verify it with the sibling
 `webhooks` package:
 
 ```go
-import "github.com/Corgi-Star/corgisign-go/webhooks"
+import "github.com/Corgi-Star/corgisign-go-sdk/webhooks"
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	body, _ := io.ReadAll(r.Body)

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	corgisign "github.com/Corgi-Star/corgisign-go"
+	corgisign "github.com/Corgi-Star/corgisign-go-sdk"
 )
 
 // cmdWhoAmI implements `corgisign whoami`.

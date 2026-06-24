@@ -13,7 +13,7 @@ make install    # go install to $GOBIN (or $GOPATH/bin)
 
 # or directly
 go build -o corgisign ./cmd/corgisign
-go install github.com/Corgi-Star/corgisign-go/cmd/corgisign@latest
+go install github.com/Corgi-Star/corgisign-go-sdk/cmd/corgisign@latest
 ```
 
 ## Configure

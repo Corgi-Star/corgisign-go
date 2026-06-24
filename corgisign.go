@@ -75,7 +75,7 @@ type Client struct {
 	Envelopes *EnvelopesService
 	// Webhooks groups the webhook-registration endpoints. To *verify* an inbound
 	// webhook signature, use the sibling package
-	// github.com/Corgi-Star/corgisign-go/webhooks.
+	// github.com/Corgi-Star/corgisign-go-sdk/webhooks.
 	Webhooks *WebhooksService
 }
 

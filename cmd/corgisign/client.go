@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	corgisign "github.com/Corgi-Star/corgisign-go"
+	corgisign "github.com/Corgi-Star/corgisign-go-sdk"
 )
 
 // newClient builds an SDK client from the environment. CORGISIGN_API_KEY is
