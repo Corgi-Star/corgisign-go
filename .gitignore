@@ -1,0 +1,5 @@
+# Build artifacts only — do NOT ignore the cmd/corgisign source directory.
+/bin/
+# The CLI binary when built in place (anchored so it never matches cmd/corgisign/).
+/corgisign
+/cmd/corgisign/corgisign
